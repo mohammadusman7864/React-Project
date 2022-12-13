@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'OpenSans-ExtraBold.ttf';
+    src: url('../../assents/font/OpenSans-ExtraBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'OpenSans-Bold.ttf';
+    src: url('../../assents/font/OpenSans-ExtraBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Bold.ttf';
+    src: url('../../assents/font/Montserrat-Bold.ttf');
+  }
+
+
+
+  .header-button{
+    position: relative;
+    bottom: 235px;
+    right: 645px;
+    background-color: white;
+    color: black;
+    width: 162px;
+    border-radius: 25px;
+    font-family: "OpenSans-ExtraBold.ttf";
+    transition: 0.5s;
+}
+
+
+.plate-btn{
+  background-color: hsl(0deg 0% 19%);
+  color: white;
+  width: 220px;
+  border-radius: 25px;
+  font-family: "OpenSans-Bold.ttf";
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 52px;
+  height: 45px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+  transition: 0.5s;
+}
+
+.plate-btn:hover{
+  background-color: darkorange !important; 
+  font-family: "OpenSans-Bold.ttf" !important;
+}
+
+.info-btn{
+  background-color: hsl(0deg 0% 92%);
+  color: black;
+  width: 187px;
+  border-radius: 18px;
+  font-family: "Montserrat-Bold.ttf" !important;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  height: 45px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+  transition: 0.5s;
+}
+
+.info-btn:hover{
+ background-color: chocolate !important;
+ font-family: "Montserrat-Bold.ttf" !important;
+}
+
+.discount-btn{
+  background-color: black;
+  color: white;
+  width: 182px;
+  border-radius: 25px;
+  font-family: "OpenSans-Bold.ttf" !important;
+  font-size: 16px;
+  height: 43px;
+  padding-top: 6px;
+  margin-top: 10px;
+  transition: 0.6s;
+}
+
+.discount-btn:hover{
+  background-color: aquamarine !important;
+  font-family: "OpenSans-Bold.ttf" !important;
+  color: brown !important;
+}
+
+.discount-btn2{
+  background-color: black;
+  color: white;
+  width: 182px;
+  border-radius: 25px;
+  font-family: "OpenSans-Bold.ttf" !important;
+  margin-left: 96px;
+  font-size: 16px;
+  height: 43px;
+  padding-top: 8px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.discount-btn2:hover{
+  background-color: aquamarine !important;
+  font-family: "OpenSans-Bold.ttf" !important;
+  color: brown !important;
+}
+
+.input-btn {
+  color: white;
+  background-color: #55514e;
+  border-radius: 30px;
+  position: relative;
+  height: 42px;
+  width: 160px;
+  bottom: 41px;
+  left: 845px;
+  font-family: 'OpenSans-Bold.ttf' !important;
+  font-size: 20px;
+  transition: 0.6s;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  .header-button{
+    bottom: 130px;
+    right: 465px;
+}
+
+.discount-btn{
+  width: 175px;
+  margin-left: 70px;
+  height: 42px;
+}
+
+.discount-btn2{
+  width: 175px;
+  height: 42px;
+}
+
+.input-btn {
+  left: 700px;
+}
+
+.input-btn {
+  width: 150px;
+  left: 620px !important;
+}
+
+}
+
+@media only screen and (max-width: 770px) {
+  .header-button{
+    bottom: 220px;
+    right: 342px;
+    width: 117px;
+    font-size: small;
+}
+
+.discount-btn {
+  width: 165px;
+  margin-left: 93px;
+  height: 40px;
+}
+
+.discount-btn2 {
+  width: 165px;
+  height: 40px;
+}
+
+.input-btn {
+  width: 145px;
+  left: 480px !important;
+  height: 40px;
+  bottom: 40px;
+}
+
+}
+
+@media only screen and (max-width: 430px) {
+  .header-button{
+    bottom: 260px;
+    left: 20px;
+    width: 65px;
+    font-size: 6px;
+    height: 20px;
+}
+
+.plate-btn {
+  width: 180px;
+  height: 43px;
+}
+
+.info-btn {
+  width: 160px;
+ }
+
+ .discount-btn {
+  width: 145px;
+  height: 39px;
+}
+ 
+.discount-btn2 {
+  width: 145px;
+  height: 39px;
+  padding-top: 7px;
+  margin-left: 67px;
+}
+
+.input-btn {
+  width: 100px;
+  left: 275px !important;
+  height: 31px;
+  bottom: 30px;
+  font-size: 12px;
+}
+
+}
+
+
+@media only screen and (max-width: 380px) {
+  .header-button{
+    bottom: 80px;
+}
+
+.plate-btn {
+  width: 165px;
+}
+
+.info-btn {
+  width: 155px;
+ }
+
+ .input-btn {
+  width: 80px;
+  left: 243px !important;
+  height: 30px;
+  bottom: 30px;
+  font-size: 10px;
+}
+ 
+
+}
+
+@media only screen and (max-width: 330px) {
+  .header-button{
+    bottom: 78px;
+}
+
+.plate-btn {
+  width: 165px;
+}
+
+.info-btn {
+  width: 150px;
+ }
+
+ .discount-btn {
+  width: 142px;
+  height: 38px;
+  margin-left: 70px;
+}
+
+.discount-btn2 {
+  width: 142px;
+  height: 38px;
+  margin-left: 70px;
+}
+
+.input-btn {
+  width: 70px;
+  left: 173px !important;
+  height: 28px;
+  bottom: 29px;
+  font-size: 8px;
+}
+
+}

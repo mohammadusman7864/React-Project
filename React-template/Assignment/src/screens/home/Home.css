@@ -1,0 +1,1128 @@
+@font-face {
+  font-family: 'Reey-Regular.otf';
+  src: url('../../assents/font/Reey-Regular.otf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold.ttf';
+  src: url('../../assents/font/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold.ttf';
+  src: url('../../assents/font/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-LightItalic.ttf';
+  src: url('../../assents/font/OpenSans-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular.ttf';
+  src: url('../../assents/font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular.ttf';
+  src: url('../../assents/font/Montserrat-Regular.ttf');
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+.backgroundPics {
+    background-image: url('../../assents/pics/Header.png');
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .logo{
+    height: 60px;
+    width: 95px;
+    margin-top: 85px;
+    padding-left: 15px;
+  }
+ 
+  .header-section{
+    height: 950px;
+  }
+
+  .header-hinding{
+    font-family: 'Reey-Regular.otf' !important;
+    color: white;
+    padding-top: 105px;
+    font-size: 90px;
+  }
+
+
+  
+  .header-text{
+    font-family: 'OpenSans-LightItalic.ttf' !important;
+    color: white;
+    font-size: 28px;
+    position: relative;
+    bottom: 330px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    left: 20px;
+  }
+
+  .header-para{
+    font-family: 'OpenSans-LightItalic.ttf' !important;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    bottom: 235px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    left: 17px;
+  }
+  
+  .header-paragraph{
+    height: 0px !important;
+  }
+  
+
+.header-plate2{
+  position: relative;
+  bottom: 220px;
+  right: 180px;
+}
+
+.header-plate{
+  padding-top: 70px;
+  padding-left: 16px;
+}
+
+.Header-leaves{
+  height: 0px;
+}
+
+.header-leaves{
+  position: relative;
+    bottom: 520px;
+    left: 870px;
+    width: 520px;
+    height: 470px;
+}
+
+
+
+
+
+.lorem-hinding{
+  font-family: 'Reey-Regular.otf';
+  text-align: center;
+  font-size: 55px;
+  text-transform: capitalize;
+  word-spacing: 20px;
+}
+
+.lorem-para{
+  font-family: 'OpenSans-Regular.ttf';
+  padding-top: 45px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.three-plate{
+  padding-top: 35px;
+  padding-left: 12px;
+}
+
+.plate-hinding{
+  font-family: 'OpenSans-Bold.ttf' !important;
+  padding-left: 75px;
+}
+
+.plate-para{
+  font-family: 'OpenSans-Regular.ttf' !important;
+  padding-left: 75px;
+}
+
+
+
+.backgroundColor-info{
+  background-color: hsl(214deg 10% 14%);
+}
+
+.info-hinding{
+  font-family: 'Reey-Regular.otf';
+  text-align: center;
+  font-size: 55px;
+  text-transform: capitalize;
+  word-spacing: 20px;
+  color: white;
+  padding-top: 55px;
+}
+
+.info-txt{
+  color: white;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-bottom: 45px;
+  padding-right: 12px;
+  font-family: 'Montserrat-Regular.ttf' !important;
+}
+
+
+
+.discount-plate{
+  height: 580px;
+  width: 545px;
+  padding-top: 55px;
+  margin-left: 55px;
+}
+
+.discount-plate2{
+  height: 580px;
+  width: 545px;
+  padding-top: 55px;
+  margin-left: 55px;
+}
+
+.discount-hinding{
+  font-family: 'OpenSans-Bold.ttf' !important;
+  padding-top: 150px;
+}
+
+.discount-hinding2{
+  font-family: 'OpenSans-Bold.ttf' !important;
+  padding-top: 150px;
+  margin-left: 105px;
+}
+
+.discount-txt{
+  font-family: 'OpenSans-Regular.ttf' !important;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.discount-txt2{
+  font-family: 'OpenSans-Regular.ttf' !important;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-left: 105px;
+}
+
+
+
+
+.leaves2 {
+  position: absolute;
+  margin-top: -175px;
+}
+
+.pizza-hinding{
+  font-family: 'Reey-Regular.otf' !important;
+  color:  hsl(0deg 0% 92%);
+  padding-top: 100px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 45px !important;
+}
+
+.pizza-txt{
+  color: hsl(0deg 0% 92%);
+  text-align: center;
+  padding-top: 36px;
+  font-family: 'Montserrat-Regular.ttf' !important;
+  font-size: 19px;
+}
+
+.Rectangle{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.pizza {
+  height: 650px;
+  margin-top: 70px;
+}
+
+.pizza2 {
+  margin-top: 430px;
+  margin-left: 215px;
+  height: 380px;
+}
+
+.backgroundPics-pizza {
+  background-image: url('../../assents/pics/Header.png');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 1520px 885px;
+}
+
+
+
+
+.about-hinding{
+  font-family: 'Reey-Regular.otf';
+  padding-left: 120px;
+}
+
+.about-txt{
+  font-family: 'OpenSans-Regular.ttf'; 
+  padding-left: 89px;
+  padding-top: 24px;
+}
+
+.about-txt2{
+  font-family: 'OpenSans-SemiBold.ttf';
+  padding-top: 222px;
+  text-align: center;
+}
+
+.about-txt3{
+  font-family: 'OpenSans-Bold.ttf';
+  padding-top: 12px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+
+
+
+.backgroundColor-title{
+  background-color: hsl(214deg 10% 14%);
+  width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.title-hinding{
+  font-family: 'OpenSans-Bold.ttf' !important;
+    padding-top: 250px;
+    color: white;
+    text-align: center;
+    font-size: 50px !important;
+}
+
+.title-txt{
+  font-family: 'OpenSans-Regular.ttf';
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+
+.input-section{
+ padding-top: 70px;
+ padding-bottom: 230px;
+}
+
+.input-inner-section{
+  height: 40px;
+  width: 510px;
+  border-radius: 30px;
+  padding-left: 15px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.leaves3{
+  position: absolute;
+  margin: -50px;
+}
+
+.footer-hinding {
+  font-family: 'Montserrat-Regular.ttf' !important;
+  font-weight: 100 !important;
+  font-size: 30px;
+  padding-top: 280px;
+}
+
+.footer-text {
+  font-family: 'Montserrat-Regular.ttf' !important;
+  padding-top: 30px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  .header-hinding{
+    padding-top: 75px;
+    font-size: 50px;
+    padding-left: 13px;
+  }
+
+  .logo{
+    margin-top: 50px;
+  }
+ 
+  .header-section{
+    height: 600px;
+  }
+
+  .header-plate{
+    height: 400px;
+    width: 450px;
+  }
+  
+  .header-text{
+    bottom: 205px;
+  }
+
+  .header-para{
+    bottom: 130px;
+    left: 20px;
+  }
+
+  .header-plate2{
+    height: 140px;
+    width: 150px;
+    bottom: 155px;
+    right: 80px;
+  }
+
+  .header-leaves {
+    position: relative;
+    bottom: 315px;
+    left: 585px;
+    height: 350px;
+    width: 390px;
+}
+
+.three-plate {
+  padding-top: 35px;
+  height: 300px;
+}
+
+.info-txt{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.discount-plate {
+  height: 550px;
+  width: 500px;
+}
+
+.discount-plate2 {
+  height: 550px;
+  width: 440px;
+}
+
+.discount-hinding {
+  font-size: 33px;
+  margin-left: 70px;
+}
+
+.discount-txt {
+  font-size: 18px;
+  margin-left: 70px;
+}
+
+.discount-txt2{
+  font-size: 18px;
+}
+
+.backgroundPics-pizza {
+  background-size: 1025px 838px;
+}
+
+.pizza {
+  height: 625px;
+  margin-top: 40px;
+}
+
+.pizza2 {
+  margin-top: 385px;
+  margin-left: 100px;
+  height: 355px;
+}
+
+.about-hinding {
+  font-size: 30px;
+}
+
+.leaves2 {
+  margin-top: -124px;
+  height: 595px;
+}
+
+.input-inner-section {
+  width: 486px;
+}
+
+.input-section {
+  padding-top: 39px;
+  padding-bottom: 120px;
+}
+
+.title-hinding {
+  padding-top: 150px;
+}
+
+.title-txt {
+  padding-top: 25px;
+}
+
+.leaves3 {
+  height: 780px;
+}
+
+}
+
+@media only screen and (max-width: 770px) {
+  .logo{
+    height: 55px;
+    width: 95px;
+    margin-top: 45px;
+    padding-left: 10px;
+  }
+ 
+  .header-section {
+    height: 520px;
+}
+  
+  .header-hinding{
+    padding-top: 55px;
+    font-size: 40px;
+  }
+
+  .header-plate{
+    height: 382px;
+    width: 359px;
+    position: relative;
+    bottom: 75px;
+  }
+
+  .header-text{
+    bottom: 260px;
+    font-size: medium;
+  }
+
+  .header-para{
+    bottom: 210px;
+    left: 24px;
+    font-size: 12px;
+  }
+
+  .header-plate2{
+    height: 100px;
+    width: 120px;
+    bottom: 215px;
+    right: 65px;
+  }
+
+
+  .header-leaves {
+    position: relative;
+    bottom: 305px;
+    left: 415px;
+    height: 315px;
+    width: 315px;
+}
+
+  .backgroundPics {
+    background-image: url('../../assents/pics/Header.png');
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+  }
+
+  .three-plate {
+    padding-top: 35px;
+    height: 240px;
+}
+
+.plate-hinding {
+  padding-left: 5px;
+}
+
+.plate-para {
+  padding-left: 5px;
+}
+
+.discount-plate {
+  height: 450px;
+  width: 400px;
+}
+
+.discount-hinding {
+  font-size: 25px;
+  margin-left: 95px;
+}
+.discount-txt {
+  font-size: 12px;
+  margin-left: 95px;
+}
+
+.discount-hinding2 {
+  font-size: 24px;
+}
+
+.discount-txt2 {
+  font-size: 11px;
+}
+
+.discount-plate2 {
+  height: 450px;
+  width: 305px;
+}
+
+.backgroundPics-pizza {
+  background-size: 770px 675px;
+}
+
+.leaves2{
+  margin-top: -91px;
+    height: 450px;
+}
+
+.pizza-hinding{
+  font-size: 32px !important;
+}
+
+.pizza-txt{
+  font-size: 14px !important;
+}
+
+.pizza {
+  height: 425px;
+  margin-top: 40px;
+}
+
+.pizza2 {
+  margin-top: 285px;
+  margin-left: 100px;
+  height:  245px;
+}
+
+.about-hinding {
+  padding-top: 15px;
+  font-size: 25px;
+  padding-left: 45px;
+}
+
+.about-txt {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.input-section {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.input-inner-section {
+  width: 395px;
+  height: 38px;
+}
+
+.title-txt {
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.title-hinding {
+  padding-top: 100px;
+  font-size: 45px !important;
+}
+
+.leaves3 {
+  height: 600px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 430px) {
+  .logo{
+    height: 45px;
+    width: 75px;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+  
+.header-section {
+  height: 370px;
+}
+  .header-hinding{
+    padding-top: 40px;
+    font-size: 20px;
+  }
+
+  .header-plate{
+    position: relative;
+    height: 275px;
+    width: 195px;
+    left: 205px;
+    bottom: 128px;
+  }
+
+  .header-text{
+    bottom: 250px;
+    font-size: 10px;
+  }
+
+  .header-para{
+    bottom: 245px;
+    left: 24px;
+    font-size: 6px;
+  }
+
+  .header-plate2{
+    height: 60px;
+    width: 80px;
+    bottom: 236px;
+    left: 167px;
+}
+
+.Header-plate2{
+  height: 0px;
+ }
+
+
+.header-leaves {
+  position: relative;
+  bottom: 245px;
+  left: 183px;
+  height: 205px;
+  width: 230px;
+}
+
+.backgroundPics {
+  background-image: url('../../assents/pics/Header.png');
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 800px 430px;
+}
+
+.three-plate {
+  height: 435px;
+}
+
+.plate-hinding {
+  padding-left: 80px;
+}
+
+.plate-para {
+  padding-left: 80px;
+}
+
+.discount-plate {
+  height: 350px;
+  width: 300px;
+}
+
+.discount-hinding {
+  padding-top: 0px;
+}
+
+.discount-plate2 {
+  height: 350px;
+  width: 300px;
+}
+
+.backgroundPics-pizza {
+  background-size: 430px 360px;
+}
+
+.leaves2 {
+  margin-top: -50px;
+  height: 245px;
+}
+
+.pizza-hinding {
+  font-size: 15px !important;
+  padding-top: 45px;
+}
+
+.pizza-txt {
+  font-size: 7px !important;
+  padding-top: 12px;
+}
+
+.pizza {
+  height: 225px;
+  margin-top: -300px;
+  margin-left: 155px;
+}
+
+.pizza2 {
+  margin-top: 165px;
+  margin-left: 95px;
+  height: 120px;
+}
+
+.about-txt {
+  padding-top: 15px;
+  padding-left: 69px;
+  font-size: 15px;
+  padding-right: 35px;
+}
+
+.about-hinding {
+  padding-top: 15px;
+  font-size: 25px;
+  padding-left: 129px;
+}
+
+.Rectangle {
+  width: 120px;
+}
+
+.input-section {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.input-inner-section {
+  width: 220px;
+  height: 30px;
+}
+
+.title-txt {
+  padding-top: 9px;
+  font-size: 8px;
+}
+
+.title-hinding {
+  padding-top: 50px;
+  font-size: 30px !important;
+}
+
+.leaves3 {
+  height: 345px;
+  margin-top: -20px;
+}
+
+}
+
+@media only screen and (max-width: 380px) {
+  .logo{
+    height: 35px;
+    width: 65px;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+.header-section {
+  height: 320px;
+}
+
+  .Header-plate{
+    height: 0px;
+  }
+
+  .header-hinding{
+    padding-top: 40px;
+    font-size: 20px;
+  }
+
+  .header-plate{
+    position: relative;
+    height: 240px;
+    width: 170px;
+    left: 172px;
+    bottom: 158px;
+  }
+
+  .header-text{
+    bottom: 42px;
+    font-size: 10px;
+  }
+
+  .header-para{
+    bottom: 100px;
+    left: 24px;
+    font-size: 6px;
+  }
+
+  .header-plate2{
+    height: 60px;
+    width: 65px;
+    bottom: 125px;
+    left: 150px;
+}
+
+.header-leaves {
+  position: relative;
+  bottom: 160px;
+  left: 190px;
+  height: 182px;
+  width: 170px;
+}
+
+.backgroundPics {
+  background-size: 800px 375px;
+}
+
+.three-plate {
+  height: 400px;
+}
+
+.discount-plate {
+  height: 300px;
+  width: 250px;
+}
+
+.discount-plate2 {
+  height: 300px;
+  width: 250px;
+}
+
+.discount-hinding2 {
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.discount-hinding {
+  font-size: 20px;
+}
+
+.discount-txt2 {
+  margin-left: 70px;
+}
+
+.backgroundPics-pizza {
+  background-size: 380px 305px;
+}
+
+.leaves2 {
+  margin-top: -45px;
+  height: 215px;
+}
+
+.pizza {
+  height: 150px;
+  margin-top: -234px;
+  margin-left: 155px;
+}
+
+.pizza2 {
+  margin-top: 128px;
+  margin-left: 95px;
+  height: 92px;
+}
+
+.Rectangle {
+  width: 85px;
+}
+
+.about-hinding {
+  padding-top: 15px;
+  padding-left: 105px;
+}
+
+.about-txt {
+  padding-left: 35px;
+}
+
+.input-section {
+  padding-top: 0px;
+  padding-bottom: 55px;
+}
+
+.input-inner-section {
+  width: 220px;
+  height: 30px;
+}
+
+.title-hinding {
+  padding-top: 35px;
+  font-size: 25px !important;
+}
+
+.leaves3 {
+  height: 310px;
+  margin-top: -22px;
+}
+
+.title-txt {
+  padding-top: 5px;
+  font-size: 6px;
+}
+
+}
+
+
+@media only screen and (max-width: 330px) {
+  .logo{
+    height: 33px;
+    width: 62px;
+    margin-top: 24px;
+    padding-left: 15px;
+}
+
+.header-section {
+  height: 235px;
+}
+  
+  .header-hinding{
+    font-size: 18px;
+    position: relative;
+    bottom: 16px;
+  }
+
+  .header-plate{
+    position: relative;
+    height: 200px;
+    width: 135px;
+    left: 152px;
+    bottom: 158px;
+  }
+
+  .header-text{
+    bottom: 45px;
+    font-size: 8px;
+  }
+
+  .header-para{
+    font-size: 5px;
+    bottom: 87px;
+  }
+
+  .header-plate2{
+    height: 50px;
+    width: 40px;
+    bottom: 105px;
+    left: 140px;
+}
+
+.header-leaves {
+  bottom: 131px;
+  left: 185px;
+  height: 127px;
+  width: 120px;
+}
+
+.backgroundPics {
+  background-size: 800px 292px;
+}
+
+.three-plate {
+  height: 320px;
+}
+
+.plate-hinding {
+  padding-left: 60px;
+}
+
+.plate-para {
+  padding-left: 60px;
+}
+
+.discount-plate {
+  margin-left: 24px;
+}
+
+.discount-hinding {
+  font-size: 17px;
+  margin-left: 77px;
+}
+
+.discount-txt {
+  font-size: 11px;
+  margin-left: 77px;
+}
+
+.discount-hinding2 {
+  margin-left: 58px;
+}
+
+.discount-txt2 {
+  margin-left: 58px;
+}
+
+.discount-plate2 {
+  margin-left: 25px;
+}
+
+.backgroundPics-pizza {
+  background-size: 320px 277px;
+}
+
+.leaves2 {
+  margin-top: -36px;
+  height: 175px;
+}
+
+.pizza-hinding {
+  font-size: 12px !important;
+  padding-top: 30px;
+}
+
+.pizza-txt {
+  font-size: 5px !important;
+  padding-top: 10px;
+}
+
+.pizza {
+  margin-left: 120px;
+}
+
+.pizza2 {
+  margin-left: 65px;
+}
+
+.Rectangle {
+  width: 85px;
+}
+
+.about-hinding {
+  padding-left: 85px;
+  padding-top: 15px;
+}
+
+.about-txt {
+  padding-left: 40px;
+}
+
+.input-section {
+  padding-top: 0px;
+  padding-bottom: 55px;
+}
+
+.input-inner-section {
+  width: 130px;
+  height: 28px;
+  font-size: 12px;
+}
+
+.title-hinding {
+  padding-top: 30px;
+  font-size: 20px !important;
+}
+
+.title-txt {
+  padding-top: 0px;
+  font-size: 5px;
+}
+
+.leaves3 {
+  height: 269px;
+  margin-top: -16px;
+}
+
+}

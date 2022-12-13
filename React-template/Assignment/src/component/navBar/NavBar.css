@@ -1,0 +1,146 @@
+  @font-face {
+    font-family: 'OpenSans-Bold.ttf';
+    src: url('../../assents/font/OpenSans-Bold.ttf');
+  }
+
+  .navbar-color{
+    background-color: rgba(128,128,128,0.5);
+  }
+
+.input-group{
+    width: 12% !important;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.form-control{
+    border-radius: 2.375rem !important;
+    height: 35px;
+}
+
+.nav-link{
+    padding-top: 50px;
+    color: white;
+    font-family: 'OpenSans-Bold.ttf' !important;
+    margin-left: 55px;
+}
+
+.active{
+  color: red !important;
+}
+
+.nav-link:hover{
+color: aquamarine !important;
+}
+
+.search-btn{
+  border-radius: 25px;
+  position: relative;
+  top: 15px;
+  right: 55px;
+  background-color: white;
+  height: 32px;
+  border: none;
+}
+.search-btn:hover {
+  background-color: white !important;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .input-group  {
+    width: 16% !important;
+  }
+
+  .form-control{
+    height: 30px;
+}
+
+    .nav-link{
+      margin-left: 40px;
+  }
+
+  .search-btn {
+    height: 28px;
+}
+  
+}
+
+@media only screen and (max-width: 780px) {
+  .input-group  {
+    width: 25% !important;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .form-control{
+    height: 30px;
+}
+
+    .nav-link{
+      padding-top: 15px !important;
+  }
+  
+  .search-btn {
+    top: -31px;
+    right: -121px;
+    height: 27px;
+}
+}
+
+
+@media only screen and (max-width: 450px) {
+  .input-group  {
+    width: 40% !important;
+    padding-top: 25px !important;
+    margin-left: 15px !important;
+  }
+  
+  .nav-link{
+    padding-top: 15px !important;
+}
+
+
+.search-btn {
+    top: -32px;
+    right: -124px;
+    height: 26px;
+}
+}
+
+@media only screen and (max-width: 380px) {
+  .search-btn {
+    top: -32px;
+    right: -103px;
+    height: 26px;
+}
+}
+
+
+@media only screen and (max-width: 330px) {
+  .input-group  {
+    width: 50% !important;
+    padding-top: 10px !important;
+    margin-left: 15px !important;
+  }
+  
+  .nav-link{
+    padding-top: 10px !important;
+}
+
+.backgroundPics {
+  background-repeat: no-repeat !important;
+  background-size: 100%;
+}
+
+.search-btn {
+  border-radius: 18px;
+  top: -36px;
+  left: 114px;
+  height: 16px;
+  border: none;
+  width: 12px;
+}
+
+}
